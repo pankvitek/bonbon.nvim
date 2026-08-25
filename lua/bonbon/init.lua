@@ -352,7 +352,7 @@ local function set_groups()
 
 		MiniFilesDirectory = { fg = colors.fg, bold = true },
 		MiniFilesBorder = { fg = colors.fg },
-		MiniFilesTitleFocused = { fg = colors.fg, bold = true },
+		MiniFilesTitleFocused = { fg = colors.bg, bg = colors.fg, bold = true },
 		MiniHipatternsFixme = { fg = colors.bg, bg = colors.error, bold = true },
 		MiniHipatternsHack = { fg = colors.bg, bg = colors.keyword, bold = true },
 		MiniHipatternsTodo = { fg = colors.bg, bg = colors.tag, bold = true },

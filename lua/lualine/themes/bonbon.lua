@@ -1,6 +1,6 @@
 local colors = require("bonbon.colors")
 
-local ayu = {
+local bonbon = {
 	visual = {
 		a = { fg = colors.bg, bg = colors.accent, gui = "bold" },
 		b = { fg = colors.accent, bg = colors.panel_border },
@@ -33,4 +33,4 @@ local ayu = {
 	},
 }
 
-return ayu
+return bonbon
